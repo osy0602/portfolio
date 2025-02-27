@@ -295,3 +295,114 @@
     background: #93C6E7;
     color:white;
 }
+
+/* ===== 공통 스타일 ===== */
+.project-card {
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.project-card .project-image {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.project-card .hover-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.6s ease-in;
+    transition-delay: 0.2s;
+    z-index: 2;
+}
+
+.project-card:hover .hover-bg {
+    opacity: 1;
+}
+
+.project-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+    z-index: 3;
+    font-family: 'NanumBarunGothicLight';
+}
+
+.project-card:hover .project-info {
+    opacity: 1;
+}
+
+.project-title {
+    font-family: 'gmarketbold';
+    font-size: clamp(1.8rem, 5vw, 3rem);
+    color: white;
+    padding-left: 3%;
+    margin-bottom: 10px;
+}
+
+.project-desc {
+    font-size: clamp(1rem, 1.5vw, 1.8rem);
+    padding-left: 3%;
+    color: white;
+    margin-bottom: 10px;
+}
+
+/* ===== 프로젝트별 개별 스타일 ===== */
+.trippass-style .overlay-image {
+    width: 90%;
+    max-width: 50%;
+    transform: translate(0%, -50%);
+    filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.2));
+}
+
+.ontherock-style .overlay-image {
+    width: 120%;
+    max-width: 50%;
+    transform: translate(0%, -50%);
+    filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.2));
+}
+
+.emotion-style .overlay-image {
+    width: 40%;
+    max-width: 50%;
+    transform: translate(15%, -50%);
+    filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.2));
+}
+
+/* ===== 반응형 스타일 ===== */
+@media (max-width: 768px) {
+    .project-title {
+        font-size: 2rem;
+    }
+
+    .project-desc {
+        font-size: 1.2rem;
+    }
+
+    .progress-bar-container {
+        width: 90%;
+    }
+
+    .view-more {
+        font-size: 1rem;
+    }
+
+    .popup-content {
+        width: 95%;
+    }
+}
