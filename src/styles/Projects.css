@@ -108,7 +108,7 @@
     font-size: 0.9vw;
     font-weight: bold;
     color: white;
-    margin-right: 10px;
+    margin-right: 1%;
 }
 
 .progress-bar {
@@ -134,7 +134,7 @@
     font-size: 0.9vw;
     font-weight: bold;
     color: white;
-    margin-left: 10px;
+    margin-left: 1%;
 }
 
 
@@ -366,6 +366,7 @@
     padding-left: 3%;
     color: white;
     margin-bottom: 10px;
+    max-width: 50%;
 }
 
 /* ===== 프로젝트별 개별 스타일 ===== */
