@@ -1,7 +1,6 @@
 import React from 'react';
 import '../styles/About.css';
 
-import syimage from '../images/sygra.png'
 const About = () => {
     return (
         <div>
