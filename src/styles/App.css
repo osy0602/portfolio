@@ -53,7 +53,7 @@
 
 .title p {
   margin-top: 10%;
-  font-size: 1rem; /* 글씨 크기 키움 */
+  font-size: 1vw; /* 글씨 크기 키움 */
   font-weight: 400;
 }
 

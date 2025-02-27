@@ -1,11 +1,11 @@
 .about-title p{
     font-family: 'NanumBarunGothicBold';
     font-weight: 500;
-    font-size: 1.8rem;
+    font-size: 1.8vw;
 }
 .about-introduction p{
     font-family: 'NanumBarunGothicLight';
-    font-size: 1.7rem;
+    font-size: 1.7vw;
 }
 .about-hashtag{
     margin-top: 10%;
@@ -46,7 +46,7 @@
     width: 100%; /* 양쪽 끝에 맞게 배치 */
     border-collapse: collapse; /* 테두리 겹침 제거 */
     font-family: 'NanumBarunGothicLight';
-    font-size: 1rem; /* 글씨 크기 */
+    font-size: 1vm; /* 글씨 크기 */
     color: #333; /* 텍스트 색상 */
 }
 
@@ -78,7 +78,7 @@
 .skills-title {
     padding: 2%; /* 셀 간격 */
     font-family: 'NanumBarunGothicBold';
-    font-size: 1.3rem; /* 글씨 크기 */
+    font-size: 1.3vw; /* 글씨 크기 */
 }
 .skills-list {
     display: inline-block;
@@ -87,7 +87,7 @@
     font-family: 'NanumBarunGothicBold';
     color: white;
     background-color: #939395;
-    font-size: 1.1rem; /* 글씨 크기 */
+    font-size: 1.1vw; /* 글씨 크기 */
     border-radius: 2cap;
     text-align: center;
 }

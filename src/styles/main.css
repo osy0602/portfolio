@@ -18,36 +18,36 @@
 /* 텍스트 스타일 */
 .intro {
     margin-top: 20%;
-    font-size: 2rem;
+    font-size: 2vw;
     color: #909090;
     font-weight: 500;
 }
 
 .mid {
     margin: 0;
-    font-size: 4rem;
+    font-size: 3vw;
     font-weight: bold;
     font-family: 'NanumBarunGothic'; 
-    margin-top: 0.5rem;
+    margin-top: 0.5vw;
 }
 
 .myname {
     margin: 0;
-    font-size:7rem;
+    font-size:6vw;
     font-weight: bold;
     display: inline-block;
     color: #93C6E7; 
     font-family: 'NanumBarunGothic';
-    margin-top: 0.8rem; 
+    margin-top: 0.8vw; 
 }
 
 .ip {
     margin: 0;
-    font-size: 7rem; 
+    font-size: 6vw; 
     display: inline-block;
     font-weight: bold;
     font-family: 'NanumBarunGothic';
-    margin-top: 0.8rem; 
+    margin-top: 0.8vw; 
 }
 .scrollimages{
     display: flex;
