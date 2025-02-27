@@ -16,8 +16,9 @@
     font-family: 'NanumBarunGothicLight';
     padding: 3% 3%;
     margin-right: 1%;
-    border:2px solid black;
+    border:1px solid black;
     border-radius: 3cap;
+    font-size: 1vw;
 }
 .about-content {
     display: flex;
@@ -46,22 +47,22 @@
     width: 100%; /* 양쪽 끝에 맞게 배치 */
     border-collapse: collapse; /* 테두리 겹침 제거 */
     font-family: 'NanumBarunGothicLight';
-    font-size: 1vm; /* 글씨 크기 */
+    font-size: 1vw; /* 글씨 크기 */
     color: #333; /* 텍스트 색상 */
 }
 
 .info-content{
-    padding: 3%; /* 셀 간격 */
+    padding: 2%; /* 셀 간격 */
     font-family: 'NanumBarunGothicBold';
     border-bottom: 1px solid #ccc; /* 아래 선만 표시 */
     color: #6B6B6B;
 }
 .info-title {
-    padding: 3%; /* 셀 간격 */
+    padding: 2%; /* 셀 간격 */
     border-bottom: 1px solid #ccc; /* 아래 선만 표시 */
     font-family: 'NanumBarunGothicBold';
     color: #939395;
-
+    font-size: 1vw;
 }
 .about-skills {
     margin-top: 5%; /* 상단 여백 */
