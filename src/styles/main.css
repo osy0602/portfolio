@@ -6,6 +6,7 @@
     height: 150%;
     padding-left: 10%;
     box-sizing: border-box;
+    padding-bottom: 10%;
 }
 .introduction {
     display: flex;
@@ -56,12 +57,13 @@
     justify-content: center;
     height: auto;
     max-width: 30%;
-   
+    width: 15%;
+    padding-top:10%
 }
 .scroll {
     position : relative;
     animation: rotate_image 30s linear infinite;   
-    max-width: 100%;
+    max-width: 80%;
 }
 @keyframes rotate_image{
     100% {
@@ -70,20 +72,21 @@
 }
 .outercircle{
     position : absolute;
-    max-width: 3%;
+    max-width: 2%;
+    width: 1%;
 }
 .innercircleup{
     position : absolute;
     transform: translate(0, -80%);
     transition: transform 0.5s ease-in-out;
-    max-width: 1.5%;
+    max-width: 0.5%;
 }
 
 .innercircledown{
     position : absolute;
     transform: translate(0, 80%);
     transition: transform 0.5s ease-in-out;
-    max-width: 1.5%;
+    max-width: 0.5%;
 }
 .innercircleup:hover{
     cursor: pointer;
