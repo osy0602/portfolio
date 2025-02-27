@@ -1,0 +1,93 @@
+.about-title p{
+    font-family: 'NanumBarunGothicBold';
+    font-weight: 500;
+    font-size: 1.8rem;
+}
+.about-introduction p{
+    font-family: 'NanumBarunGothicLight';
+    font-size: 1.7rem;
+}
+.about-hashtag{
+    margin-top: 10%;
+    display: flex;
+}
+
+.about-hashtag p{
+    font-family: 'NanumBarunGothicLight';
+    padding: 3% 3%;
+    margin-right: 1%;
+    border:2px solid black;
+    border-radius: 3cap;
+}
+.about-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-imagebox {
+    display: flex; /* Flexbox 설정 */
+    justify-content: center; /* 가로 중앙 정렬 */
+    align-items: center; /* 세로 중앙 정렬 */
+    width: 40%; /* 컨테이너 크기 조정 */
+}
+
+.myimage {
+    max-width: 100%; /* 컨테이너 크기에 맞게 이미지 크기 조정 */
+    height: auto; /* 비율 유지 */
+}
+.about-info {
+    margin-top: 5%; /* 상단 여백 */
+    width: 100%; /* 전체 너비 */
+    display: flex;
+    justify-content: center; /* 테이블 중앙 배치 */
+}
+
+.about-info table {
+    width: 100%; /* 양쪽 끝에 맞게 배치 */
+    border-collapse: collapse; /* 테두리 겹침 제거 */
+    font-family: 'NanumBarunGothicLight';
+    font-size: 1rem; /* 글씨 크기 */
+    color: #333; /* 텍스트 색상 */
+}
+
+.info-content{
+    padding: 3%; /* 셀 간격 */
+    font-family: 'NanumBarunGothicBold';
+    border-bottom: 1px solid #ccc; /* 아래 선만 표시 */
+    color: #6B6B6B;
+}
+.info-title {
+    padding: 3%; /* 셀 간격 */
+    border-bottom: 1px solid #ccc; /* 아래 선만 표시 */
+    font-family: 'NanumBarunGothicBold';
+    color: #939395;
+
+}
+.about-skills {
+    margin-top: 5%; /* 상단 여백 */
+    width: 100%; /* 전체 너비 */
+    display: flex;
+    justify-content: center; /* 테이블 중앙 배치 */
+}
+.about-skills table { 
+    width: 80%; /* 양쪽 끝에 맞게 배치 */
+    border-collapse: collapse; /* 테두리 겹침 제거 */
+    color: #333; /* 텍스트 색상 */
+    text-align: center;
+}
+.skills-title {
+    padding: 2%; /* 셀 간격 */
+    font-family: 'NanumBarunGothicBold';
+    font-size: 1.3rem; /* 글씨 크기 */
+}
+.skills-list {
+    display: inline-block;
+    margin: 1%;
+    padding: 1% 2%;
+    font-family: 'NanumBarunGothicBold';
+    color: white;
+    background-color: #939395;
+    font-size: 1.1rem; /* 글씨 크기 */
+    border-radius: 2cap;
+    text-align: center;
+}

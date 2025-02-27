@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'NanumBarunGothic';
+  src: url(./fonts/NanumBarunGothic.ttf);
+}
+@font-face {
+  font-family: 'NanumBarunGothicBold';
+  src: url(./fonts/NanumBarunGothicBold.ttf);
+}
+@font-face {
+  font-family: 'NanumBarunGothicLight';
+  src: url(./fonts/NanumBarunGothicLight.ttf);
+}
+@font-face {
+  font-family: 'NanumBarunGothicUltraLight';
+  src: url(./fonts/NanumBarunGothicUltraLight.ttf);
+}
+@font-face {
+  font-family: 'gmarketbold';
+  src: url(./fonts/GmarketSansTTFBold.ttf);
+}
+@font-face {
+  font-family: 'gmarketlight';
+  src: url(./fonts/GmarketSansTTFLight.ttf);
+}
+@font-face {
+  font-family: 'gmarketmedium';
+  src: url(./fonts/GmarketSansTTFMedium.ttf);
+}

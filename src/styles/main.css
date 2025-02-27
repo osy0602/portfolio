@@ -1,0 +1,108 @@
+
+.leftright{
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    height: 70vh;
+    padding-left: 10%;
+    box-sizing: border-box;
+}
+.introduction {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+
+/* 텍스트 스타일 */
+.intro {
+    margin-top: 20%;
+    font-size: 2rem;
+    color: #909090;
+    font-weight: 500;
+}
+
+.mid {
+    margin: 0;
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: 'NanumBarunGothic'; 
+    margin-top: 0.5rem;
+}
+
+.myname {
+    margin: 0;
+    font-size:7rem;
+    font-weight: bold;
+    display: inline-block;
+    color: #93C6E7; 
+    font-family: 'NanumBarunGothic';
+    margin-top: 0.8rem; 
+}
+
+.ip {
+    margin: 0;
+    font-size: 7rem; 
+    display: inline-block;
+    font-weight: bold;
+    font-family: 'NanumBarunGothic';
+    margin-top: 0.8rem; 
+}
+.scrollimages{
+    display: flex;
+    align-items: center;
+    padding-left: 25%;
+    justify-content: center;
+    height: auto;
+   
+}
+.scroll {
+    position : relative;
+    animation: rotate_image 30s linear infinite;   
+}
+@keyframes rotate_image{
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.outercircle{
+    position : absolute;
+}
+.innercircleup{
+    position : absolute;
+    transform: translate(0, -80%);
+    transition: transform 0.5s ease-in-out;
+}
+
+.innercircledown{
+    position : absolute;
+    transform: translate(0, 80%);
+    transition: transform 0.5s ease-in-out;
+}
+.innercircleup:hover{
+    cursor: pointer;
+}
+
+.innercircledown:hover{
+    cursor: pointer;
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: center; 
+    align-items: center; /* 수직 중앙 정렬 */
+    height: 100%; /* 필요한 경우 높이 설정 */
+}
+
+.imageContainer:hover{
+    cursor: pointer;
+    transform: translateY(-5px);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.githubnormal {
+    display: block;
+    max-width: 50%;
+    height: auto;
+}
