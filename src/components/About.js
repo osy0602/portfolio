@@ -10,18 +10,25 @@ const About = () => {
         <div className='about-content'>
             <div className='about-textbox'>
                 <div className='about-title'>
-                    <p>끊임없는 도전과 성실함으로
-                    <br/>빠르게 적응하는 신입 개발자 오세영입니다.</p>
+                    {/* <p>끊임없는 도전과 성실함으로
+                    <br/>빠르게 적응하는 신입 개발자 오세영입니다.</p> */}
+                    <p> I bring strong problem solving skills, 
+                    <br/>adaptability, and a genuine curiosity for learning
+                    </p>
                 </div>
                 <div className='about-introduction'>
-                    <p>다양한 프로젝트 경험을 통해 문제 해결 능력을<br/> 키웠으며 챗봇, 미디어 아트, 성격 테스트 등<br/> 다양한 인터랙티브 시스템을 개발하며<br/>  사용자와 소통하는 서비스를 만듭니다</p>
+                    {/* <p>다양한 프로젝트 경험을 통해 문제 해결 능력을<br/> 키웠으며 챗봇, 미디어 아트, 성격 테스트 등<br/> 다양한 인터랙티브 시스템을 개발하며<br/>  사용자와 소통하는 서비스를 만듭니다</p> */}
+                    <p>Passionate Frontend Developer 
+                    <br/>with hands-on experience
+                    <br/>building AI-powered and interactive web applications.
+                    <br/>and interactive web applications.</p>
                 </div>
                 <div className='about-hashtag'>
-                    <p>#도전정신</p>
-                    <p>#신뢰감</p>
-                    <p>#협업</p>
-                    <p>#소통</p>
-                    <p>#침착함</p>
+                    <p>#ChallengeDriven</p>
+                    <p>#Reliable</p>
+                    <p>#TeamPlayer</p>
+                    <p>#GoodCommunicator</p>
+                    <p>#Composed</p>
                 </div>
             </div>
             {/* <div className='about-imagebox'>
@@ -33,22 +40,22 @@ const About = () => {
             <table>
                 <tbody>
                     <tr>
-                        <td className='info-title'>이름</td>
-                        <td className='info-content'>오세영</td>
-                        <td className='info-title'>이메일</td>
-                        <td className='info-content'>osy0602@naver.com</td>
+                        <td className='info-title'>Name</td>
+                        <td className='info-content'>Seyoung Oh</td>
+                        <td className='info-title'>email</td>
+                        <td className='info-content'>osy5318@gmail.com</td>
                     </tr>
                     <tr>
-                        <td className='info-title'>생년월일</td>
-                        <td className='info-content'>99.06.02</td>
-                        <td className='info-title'>연락처</td>
-                        <td className='info-content'>010.3609.5318</td>
+                        <td className='info-title'>Nationality</td>
+                        <td className='info-content'>Republic of Korea</td>
+                        <td className='info-title'>Contact</td>
+                        <td className='info-content'>82+)1036095318</td>
                     </tr>
                     <tr>
-                        <td className='info-title'>학력</td>
-                        <td className='info-content'>덕성여자대학교 IT미디어공학과</td>
-                        <td className='info-title'>주소</td>
-                        <td className='info-content'>경기도 군포시 당동</td>
+                        <td className='info-title'>Education</td>
+                        <td className='info-content'>Duksung Women's University ITMedia Engineering</td>
+                        <td className='info-title'>Visa</td>
+                        <td className='info-content'>Working Holiday visa(valid untill Aug 2026)</td>
                     </tr>
                 </tbody>
             </table>

@@ -32,7 +32,7 @@ const ProjectCard = ({
             fetch(detailsFile)
                 .then(response => response.text())
                 .then(text => setDetails(text))
-                .catch(error => console.error("파일을 불러오는데 실패했습니다:", error));
+                .catch(error => console.error("404 Not Found :(", error));
         }
     }, [detailsFile]);
 
@@ -84,7 +84,7 @@ const ProjectCard = ({
                                 <img key={index} src={img} alt={`${title} UI ${index + 1}`} className="ui-image" />
                             ))}
                         </div>
-                        <h3>🔗 프로젝트 관련 링크</h3>
+                        <h3>🔗 Project Link</h3>
                         {githublink && (
                             <p>
                                 <a href={githublink} target="_blank" rel="noopener noreferrer">
@@ -95,7 +95,7 @@ const ProjectCard = ({
                         {videolink && (
                             <p>
                                 <a href={videolink} target="_blank" rel="noopener noreferrer">
-                                    🎥 프로젝트 시연 영상
+                                    🎥 Project Demonstration Video
                                 </a>
                             </p>
                         )}

@@ -19,11 +19,13 @@ const Main = () => {
             <div className='leftright'>
                 <div className='introduction'>
                     <p className='intro'>Hi there!</p>
-                    <p className='mid'>사용자 맞춤형<br></br> 서비스를 개발하는</p>
+                    
                     <div className='name'>
-                        <p className='myname'>오세영</p>
-                        <p className='ip'>입니다</p>
+                        <p className='ip'>I'm </p><br></br>
+                        <p className='myname'>Seyoung OH</p>
+                        {/* <p className='ip'>입니다</p> */}
                     </div>
+                    <p className='mid'>I develop<br></br>customized services</p>
                 </div>
                 <div className='scrollimages'>
                     <img src = {scrollImageBlack} alt="scroll" className='scroll'/>
